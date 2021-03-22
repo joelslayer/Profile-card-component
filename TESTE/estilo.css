@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	color: #999;
+	font-family: 'Montserrat' , sans-serif;
+}
+body
+{
+	width: 100%;
+	height: 100%;
+	background-image: url('fundo.jpg');
+}
+main
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+.box
+{
+	width: 400px;
+	height: 400px;
+	background-color: #DDD;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.topo
+{
+	height: 170px;
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+	background-image: url('fundo_topo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.persona
+{
+	width: 120px;
+	height: 120px;
+	background-color: #FFF;
+	border-radius: 60px;
+	margin: -60px auto;
+	background-image: url('girl.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 3px solid #DDD;
+}
+h1
+{
+	font-size: 18px;
+	color: #222;
+	text-align: center;
+	padding-top: 80px;
+}
+span
+{
+	color: #999;
+}
+h2
+{
+	font-size: 14px;
+	color: #999;
+	text-align: center;
+	padding-top: 10px;
+}
+.items
+{
+	display: flex;
+	flex: 1; 
+	padding: 30px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.text2
+{
+	text-align: center;
+}
+h3
+{
+	font-size: 16px;
+	color: #222;
+	padding: 5px 0;
+}
+p
+{
+	font-size: 12px;
+	color: #999;
+}
+
+@media only screen and (max-width: 475pxpx){
+
+}
